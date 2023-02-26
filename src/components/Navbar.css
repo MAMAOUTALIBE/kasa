@@ -1,0 +1,6 @@
+.navbar {
+    border: 1px solide aqua;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}

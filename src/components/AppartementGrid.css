@@ -1,0 +1,11 @@
+.grid {
+    border: 1px solid aqua;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 540px;
+    border-radius: 3rem;
+    padding: 1rem;
+}
