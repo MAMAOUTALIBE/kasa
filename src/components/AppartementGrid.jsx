@@ -10,7 +10,7 @@ function AppartementGrid() {
         <Appartement />
 
     </div>
-  )
+  );
 }
 
-export default AppartementGrid
+export default AppartementGrid;

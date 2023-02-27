@@ -4,7 +4,7 @@ function Banner() {
   return (
     <div>
       <div className='banner'>
-        <img className='image' src="Banner_img.png" alt="" />
+        <h1>chez vous, partous et ailleurs</h1>
       </div>
     </div>
   )

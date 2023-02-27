@@ -1,6 +1,11 @@
 .navbar {
-    border: 1px solide aqua;
     display: flex;
     align-items: center;
-    gap: 4rem;
+    color: #ff6060;
+    padding: 0 2 rem;
+    font-weight: 700;
+    gap: 2rem;
+}
+.navbar__logo {
+    margin-right: auto;
 }
