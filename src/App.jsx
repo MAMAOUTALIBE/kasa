@@ -1,23 +1,19 @@
-import React from 'react'
-import AppartementGrid from './components/AppartementGrid'
-import Banner from './components/Banner'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import Main from './components/Main'
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components//Footer";
+import About from "./components/AppartementGrid"
+
 function App() {
-  return (
-    <div>
-      <Navbar />
-      <Main>
-      <Banner />
-      <AppartementGrid />
-      </Main>
-      <Footer />
+	return (
+		<div className="App">
+			<Navbar />
+      <Routes>
+        <Route path="/about" element={<About />} />
       
-
-
-    </div>
-  )
+      </Routes>
+			<Footer />
+		</div>
+	);
 }
 
-export default App
+export default App;

@@ -6,6 +6,20 @@
     font-weight: 700;
     gap: 2rem;
 }
-.navbar__logo {
+
+.navbar a {
+    text-decoration: none;
+    color: #ff6060;
+}
+
+.navbar a:hover{
+    text-decoration: overline;
+
+}
+.navbar a.active{
+    text-decoration: overline;
+}
+.navbar > *:first-child {
     margin-right: auto;
 }
+
