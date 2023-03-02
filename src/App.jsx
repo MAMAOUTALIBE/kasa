@@ -1,19 +1,14 @@
-import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Footer from "./components//Footer";
-import About from "./components/AppartementGrid"
-
-function App() {
-	return (
-		<div className="App">
-			<Navbar />
-      <Routes>
-        <Route path="/about" element={<About />} />
-      
-      </Routes>
-			<Footer />
-		</div>
-	);
+import React from "react"
+import Header from "./components/Locations"
+import Footer from "./components/Footer"
+const App = () => {
+    return (
+        <>
+            <Header />
+            <Footer />
+        
+        </>
+    )
 }
 
-export default App;
+export default App
